@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/paccolamano/plugincmd"
+	"github.com/paccolamano/plugin/pbplugin"
 	"github.com/pocketbase/pocketbase/core"
 )
 
@@ -14,14 +14,14 @@ func (p *KeycloakAuthPlugin) Name() string {
 }
 
 func (p *KeycloakAuthPlugin) Version() string {
-	return "1.2.37"
+	return "1.2.38"
 }
 
 func (p *KeycloakAuthPlugin) Register(app core.App) error {
 	app.OnServe().BindFunc(func(se *core.ServeEvent) error {
 		se.Router.GET("/keycloakauth/version", func(e *core.RequestEvent) error {
 			return e.JSON(http.StatusOK, map[string]string{
-				"version": "1.2.37",
+				"version": "1.2.38",
 			})
 		})
 		return se.Next()
@@ -30,4 +30,4 @@ func (p *KeycloakAuthPlugin) Register(app core.App) error {
 	return nil
 }
 
-var Plugin plugincmd.PBPlugin = &KeycloakAuthPlugin{}
+var Plugin pbplugin.PBPlugin = &KeycloakAuthPlugin{}
