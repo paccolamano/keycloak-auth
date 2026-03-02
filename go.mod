@@ -3,7 +3,7 @@ module github.com/paccolamano/keycloakauth
 go 1.25.7
 
 require (
-	github.com/paccolamano/plugincmd v0.0.0-20260301102628-9608519f6249
+	github.com/paccolamano/plugincmd v0.2.0
 	github.com/pocketbase/pocketbase v0.36.5
 )
 

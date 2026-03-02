@@ -14,14 +14,14 @@ func (p *KeycloakAuthPlugin) Name() string {
 }
 
 func (p *KeycloakAuthPlugin) Version() string {
-	return "1.2.36"
+	return "1.2.37"
 }
 
 func (p *KeycloakAuthPlugin) Register(app core.App) error {
 	app.OnServe().BindFunc(func(se *core.ServeEvent) error {
 		se.Router.GET("/keycloakauth/version", func(e *core.RequestEvent) error {
 			return e.JSON(http.StatusOK, map[string]string{
-				"version": "1.2.36",
+				"version": "1.2.37",
 			})
 		})
 		return se.Next()

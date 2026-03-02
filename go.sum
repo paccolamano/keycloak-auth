@@ -47,6 +47,8 @@ github.com/ncruces/go-strftime v1.0.0 h1:HMFp8mLCTPp341M/ZnA4qaf7ZlsbTc+miZjCLOF
 github.com/ncruces/go-strftime v1.0.0/go.mod h1:Fwc5htZGVVkseilnfgOVb9mKy6w1naJmn9CehxcKcls=
 github.com/paccolamano/plugincmd v0.0.0-20260301102628-9608519f6249 h1:+uTQJiCq8sSGDXeRSbdm1yppbu470O85kO/cGus6zBM=
 github.com/paccolamano/plugincmd v0.0.0-20260301102628-9608519f6249/go.mod h1:2A7gb6YfPGIoLTwh/BsT43G9VaIq2MA+lo6yG7v7FPo=
+github.com/paccolamano/plugincmd v0.2.0 h1:yavwtbS+hBd2xilSdohVaNDnbVhq8RN/PVuWNyMz1+Y=
+github.com/paccolamano/plugincmd v0.2.0/go.mod h1:NWQdWnlq/RnoSVfQdXOVMZ3FYlmAMeaQwkFY06kpwsQ=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/pocketbase/dbx v1.12.0 h1:/oLErM+A0b4xI0PWTGPqSDVjzix48PqI/bng2l0PzoA=
